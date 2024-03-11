@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "author": "gongzhen <517441540@qq.com>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "setup": "max setup",
+    "start": "npm run dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install",
+    "postinstall": "max setup",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@ant-design/pro-components": "^2.6.3",
+    "@react-three/drei": "^9.101.0",
+    "@react-three/fiber": "^8.15.19",
+    "@umijs/max": "^4.0.72",
+    "ahooks": "^3.7.8",
+    "antd": "^5.6.3",
+    "react-loading": "^2.0.3",
+    "three": "^0.162.0",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.6",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/three": "^0.162.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "tailwindcss": "^3",
+    "typescript": "^5.1.6"
+  }
+}
