@@ -1,10 +1,10 @@
 const router = [
   {
-    name: 'demo',
+    name: 'editor',
     path: '/',
     component: '@/layout',
     routes: [
-      { path: '', component: '@/pages/Admin' },
+      { path: '', component: '@/pages/Editor' },
     ],
   },
 ]
